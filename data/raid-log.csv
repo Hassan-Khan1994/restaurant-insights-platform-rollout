@@ -1,0 +1,12 @@
+ID,Type,Description,Impact,Likelihood,Rating,Owner,Action,Status
+R01,Risk,Older POS version at some sites cannot export data in the required format,High,Medium,High,IT Lead,Test older version in pilot; vendor patch agreed as fallback,Open
+R02,Risk,Go-live disrupts service during trading hours,High,Low,Medium,Project Manager,Go-lives only before opening; rollback plan per site,Mitigating
+R03,Risk,Site managers do not adopt the dashboards,Medium,Medium,Medium,Head of Operations,Area-manager champions; short role-based training,Mitigating
+R04,Risk,Data discrepancies reduce trust in reports,High,Medium,High,Data Lead,Daily reconciliation against POS end-of-day report in pilot,Open
+R05,Risk,Peak trading period (December) overlaps Wave 3,Medium,Medium,Medium,Project Manager,Freeze go-lives from mid-December; Wave 3 completes beforehand,Closed
+A01,Assumption,All sites have stable broadband for data sync,—,—,—,IT Lead,Confirmed through site audit in Discovery,Validated
+A02,Assumption,Area managers can release site managers for 1 hour of training,—,—,—,Head of Operations,Agreed at steering committee,Validated
+I01,Issue,Two pilot sites showed duplicate transactions after refunds,Medium,—,Medium,Integration Lead,Connector fix deployed and retested before Wave 1,Resolved
+I02,Issue,Guest-feedback feed delayed by 24 hours,Low,—,Low,Platform Vendor,Feed schedule changed to hourly,Resolved
+D01,Dependency,POS vendor API credentials for each site,High,—,High,Procurement,Credentials requested two weeks before each wave,Tracking
+D02,Dependency,Finance sign-off on revenue definitions for dashboards,Medium,—,Medium,Finance Director,Definitions agreed in week 3,Complete
